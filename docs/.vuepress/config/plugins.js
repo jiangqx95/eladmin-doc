@@ -43,7 +43,7 @@ module.exports = [
   ],
   [
   'sitemap', {
-      hostname: 'https://eladmin.vip' // 网站域名
+      hostname: 'https://gkadmin.vip' // 网站域名
     }
   ]
 ];

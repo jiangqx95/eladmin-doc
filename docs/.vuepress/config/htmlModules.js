@@ -18,19 +18,19 @@
  * ②注：windowLB 和 windowRB：1.展示区块宽高最大是200*200px。2.请给自定义元素定一个不超过200px的固定宽高。3.在屏宽小于960px时无论如何都不会显示。
  */
 module.exports = {
-  sidebarT: `
-      <a href="https://www.mingdao.com/?s=utm_78&utm_source=eladmin&utm_medium=banner&utm_campaign=IT网站&utm_content=IT赋能业务" target="_blank" style="margin-top: -8px;">
-        <img src="/images/banner/mdy_side.png" alt="明道云零代码构建平台" width="246px" height="72px">
-      </a>
-      <a href="https://www.mingdao.com/?s=utm_78&utm_source=eladmin&utm_medium=banner&utm_campaign=IT网站&utm_content=IT赋能业务" style="text-align: center;margin-top: 2px;margin-bottom:0;display:block;color: #999;font-size: 12px;">🌈 特别赞助 (明道云零代码构建平台)</a>
-  `,
-  // 万维
-  windowRB: `
-    <div class="wwads-cn wwads-vertical" data-id="148" style="max-width:200px;"></div>
-    <script>
-        var ele = document.querySelector('.wwads-vertical').parentElement.parentElement;
-        ele.style.maxHeight = 'unset';
-        ele.firstChild.hidden = true;
-    </script>
-  `
+  // sidebarT: `
+  //     <a href="https://www.mingdao.com/?s=utm_78&utm_source=gkadmin&utm_medium=banner&utm_campaign=IT网站&utm_content=IT赋能业务" target="_blank" style="margin-top: -8px;">
+  //       <img src="/gkadmin-doc/images/banner/mdy_side.png" alt="明道云零代码构建平台" width="246px" height="72px">
+  //     </a>
+  //     <a href="https://www.mingdao.com/?s=utm_78&utm_source=gkadmin&utm_medium=banner&utm_campaign=IT网站&utm_content=IT赋能业务" style="text-align: center;margin-top: 2px;margin-bottom:0;display:block;color: #999;font-size: 12px;">🌈 特别赞助 (明道云零代码构建平台)</a>
+  // `,
+  // // 万维
+  // windowRB: `
+  //   <div class="wwads-cn wwads-vertical" data-id="148" style="max-width:200px;"></div>
+  //   <script>
+  //       var ele = document.querySelector('.wwads-vertical').parentElement.parentElement;
+  //       ele.style.maxHeight = 'unset';
+  //       ele.firstChild.hidden = true;
+  //   </script>
+  // `
 };

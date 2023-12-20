@@ -1,5 +1,5 @@
 const nav = require("./nav.js");
-const htmlModules = require("./htmlModules.js");
+// const htmlModules = require("./htmlModules.js");
 
 // Theme Config
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
   searchMaxSuggestions: 10,
   lastUpdated: "上次更新",
 
-  docsRepo: "elunez/eladmin-doc",
+  docsRepo: "elunez/gkadmin-doc",
   docsDir: "docs",
   docsBranch: "master",
   editLinks: true,
@@ -56,5 +56,5 @@ module.exports = {
     ].join('')
   },
 
-  htmlModules
+  // htmlModules
 };
